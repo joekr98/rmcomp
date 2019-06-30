@@ -6,9 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(rgba(0, 0, 0, 0.450) ,rgba(0, 0, 0, 0.450)),url('./containers/bg.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
+  background: linear-gradient(to right, rgb(255, 255, 0), rgb(255, 128, 64));;
   color: black;
   
 }

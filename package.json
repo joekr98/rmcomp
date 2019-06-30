@@ -2,7 +2,7 @@
   "name": "rmcompendium",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joekr98.github.io/rmcompendium/",
+  "homepage": "https://joekr98.github.io/rickmortycompendium/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
