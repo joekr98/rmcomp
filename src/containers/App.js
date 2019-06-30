@@ -17,12 +17,14 @@ class App extends Component {
     fetch(`https://rickandmortyapi.com/api/character/`)
       .then(response => { return response.json(); })
       .then(results => { this.setState({ characters: results.results }) })
+      .catch(() => <h1 className="title">Not available at the moment</h1>)
   }
 
   componentWillUpdate() {
     fetch(`https://rickandmortyapi.com/api/character/?page=${this.state.page}`)
     .then(response => { return response.json(); })
     .then(results => { this.setState({ characters: results.results }) })
+      .catch(() => <h1 className="title">Not available at the moment</h1>)
     
   }
 
