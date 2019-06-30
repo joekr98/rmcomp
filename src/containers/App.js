@@ -46,7 +46,7 @@ class App extends Component {
       <div className="tc">
         <img src="https://i.ya-webdesign.com/images/rick-and-morty-logo-png-1.png" alt="logo" className="logo ma4"></img>
         <h1 className="tc pa3 ma2 title">CHARACTER COMPENDIUM</h1>
-        <p className="tc pa2 ma2 page-selec">Pick a page from 1 to 20</p>
+        <p className="tc pa2 ma2 page-selec">Select a page from 1 to 20</p>
         <input type="number" name="quantity" min="1" max="20" onChange={this.onPageChange}></input>
         <SearchBox searchChange = {this.onSearchChange}/>
         <Slideshow characters = {filteredCharacters}/>
