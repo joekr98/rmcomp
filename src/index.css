@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, rgb(255, 255, 0), rgb(255, 128, 64));
+  background: linear-gradient(to right, rgb(206, 206, 1), rgb(201, 101, 51));
   background-size: cover;
   color: black;
   
@@ -20,6 +20,8 @@ code {
 h1 {
   color: black;
 }
+
+
 
 
 

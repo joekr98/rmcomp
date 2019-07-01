@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import './App.css';
 import Slideshow from '../components/Slideshow'
 import SearchBox from '../components/SearchBox';
+import Particles from 'react-particles-js';
+
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 80,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+}
 
 class App extends Component {
   constructor() {
@@ -44,6 +57,7 @@ class App extends Component {
     });
     return(
       <div className="tc">
+        <Particles className='particles' params={particlesOptions} />
         <img src="https://i.ya-webdesign.com/images/rick-and-morty-logo-png-1.png" alt="logo" className="logo ma4"></img>
         <h1 className="tc pa3 ma2 title">CHARACTER COMPENDIUM</h1>
         <p className="tc pa2 ma2 page-selec">Select a page from 1 to 20</p>
